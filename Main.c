@@ -91,6 +91,15 @@ extern void remove_occurrences(char* str, char toRemove);
 
 char str[] = "The Quick Brown Fox Jumps Over a Lazy Dog";
 
+// question 7 testing init
+extern void string_swap(char** str1, char** str2);
+char* str1 = "Testing string 1";
+char* str2 = "Testing string 2";
+
+// question 8 testing init
+extern signed int max4(signed int num1, signed int num2, signed int num3, signed int num4);
+signed int result = 0;
+
 int main(void) {
 	// Question1
 	//q1_systick_init();
@@ -120,6 +129,15 @@ int main(void) {
 	
 	// Question6 testing
 	remove_occurrences(str, 'o');
+	
+	// Question7 testing
+	string_swap(&str1, &str2);
+	
+	// Question8 testing
+	result = max4(1,2,3,4);
+	result = max4(1,2,4,3);
+	result = max4(1,4,2,3);
+	result = max4(4,1,2,3);
 	
 }
 

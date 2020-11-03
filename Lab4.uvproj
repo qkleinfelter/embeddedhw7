@@ -415,6 +415,31 @@
               <FileType>2</FileType>
               <FilePath>.\main.s</FilePath>
             </File>
+            <File>
+              <FileName>Main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Main.c</FilePath>
+            </File>
+            <File>
+              <FileName>remove_occurrences.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\remove_occurrences.s</FilePath>
+            </File>
+            <File>
+              <FileName>string_swap.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\string_swap.s</FilePath>
+            </File>
+            <File>
+              <FileName>stringCopy.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\stringCopy.s</FilePath>
+            </File>
+            <File>
+              <FileName>max4.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\max4.s</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
