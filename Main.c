@@ -81,16 +81,23 @@ STyp class[SIZE];
 unsigned long j; // will iterate through students
 unsigned long mean;
 
+// question 5 testing init
+extern void strcpy(char* destination, char* source);
+char src[25] = "Hello!";
+char dst[25];
+
+// question 6 testing init
+extern void remove_occurrences(char* str, char toRemove);
+
+char str[] = "The Quick Brown Fox Jumps Over a Lazy Dog";
+
 int main(void) {
 	// Question1
 	//q1_systick_init();
 	//q1_systick_wait1ms();
 	//q1_systick_100us_interrupts();
 	
-	// Question3
-
-	
-	// test
+	// Question3 testing
 	for (j = 0; j < SIZE; j++) {
 		STyp* student = &class[j];
 		
@@ -107,6 +114,12 @@ int main(void) {
 	// Now everyone should have an id and a score
 	// If we average 74 (32 times) and 76 (32 times), we get 75
 	mean = Grades(class); // 75 is the average we get so its good!
+	
+	// Question5 testing
+	strcpy(dst, src);
+	
+	// Question6 testing
+	remove_occurrences(str, 'o');
 	
 }
 
